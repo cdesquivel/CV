@@ -1,0 +1,34 @@
+p {
+    color: red;
+    width: 300;
+    font-family: fuentecv;
+}
+
+h1 {
+    font-weight: bold;
+    color: grey;
+    font-family: fuentecv;
+    width: 320px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+}
+@font-face{
+    font-family: fuentecv;
+    src: url("PlayfairDisplay-Italic-VariableFont_wght.ttf");
+} 
+
+li {
+    font-weight: bold;
+    color: red;
+    font-family: fuentecv;
+}
+
+section {
+    width: 320px;
+    padding: 50px;
+    border: 15px solid orange;
+    margin: 20px;
+ 
+}
+    
