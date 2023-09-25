@@ -1,7 +1,14 @@
+.CV {
+    display: grid;
+    justify-content: center;
+}
+
 p {
     color: red;
     width: 300;
     font-family: fuentecv;
+    text-align: center;
+
 }
 
 h1 {
@@ -12,23 +19,29 @@ h1 {
     padding: 5px;
     border: 1px solid black;
     margin: 20px;
+    text-align: center;
+
 }
 @font-face{
     font-family: fuentecv;
     src: url("PlayfairDisplay-Italic-VariableFont_wght.ttf");
-} 
-
+    
+}
 li {
     font-weight: bold;
     color: red;
     font-family: fuentecv;
+    text-align: center;
+
 }
 
 section {
+    display: grid;
     width: 320px;
     padding: 50px;
     border: 15px solid orange;
     margin: 20px;
- 
+    justify-content: center;
+
 }
     
